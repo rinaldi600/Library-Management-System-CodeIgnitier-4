@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins-Regular.ttf';
+}
+.forms-id {
+    width: 50%;
+    min-height: 100px;
+}
+.alert {
+    width: 90%;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular.ttf';
+    src: url('/font/Poppins-Regular.ttf');
+}
+
+@media (max-width: 575.98px) {
+    .forms-id {
+        width: 90%
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .forms-id {
+        width: 70%
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .forms-id {
+        width: 80%
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

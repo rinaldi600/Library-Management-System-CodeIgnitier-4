@@ -1,0 +1,48 @@
+.login {
+    width: 50%;
+    min-height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 30px;
+}
+.form {
+    width: 50%;
+    margin: auto;
+}
+body {
+    font-family: 'Poppins-Regular.ttf';
+}
+@font-face {
+    font-family: 'Poppins-Regular.ttf';
+    src: url('/font/Poppins-Regular.ttf');
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .login {
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .login {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .login {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

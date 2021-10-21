@@ -1,0 +1,48 @@
+.select-user {
+    width: 50%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 30px;
+}
+.admin:hover, .user:hover {
+    background: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+body {
+    font-family: 'Poppins-Regular.ttf';
+}
+@font-face {
+    font-family: 'Poppins-Regular.ttf';
+    src: url('/font/Poppins-Regular.ttf');
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .select-user {
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .select-user {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .select-user {
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
